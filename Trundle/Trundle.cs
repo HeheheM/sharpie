@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using LeagueSharp;
 using LeagueSharp.Common;
@@ -28,7 +28,7 @@ namespace Trundle
                 T.GetSmiteSlot();
 
                 Drawing.OnDraw += OnDraw;
-                Game.OnGameUpdate += OnGameUpdate;
+                Game.OnUpdate += OnGameUpdate;
                 Orbwalking.AfterAttack += AfterAttack;
                 Interrupter.OnPossibleToInterrupt += OnPossibleInterrupt;
 
